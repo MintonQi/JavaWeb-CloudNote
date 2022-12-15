@@ -91,15 +91,15 @@
 		var userName = $("#userName").val();
 		var userPwd = $("#userPwd").val();
 
-		// 2. check empty
-		if(isEmpty(userName)){
-			$("#msg").html("用户名称不能为空");
-			return;
-		}
-		if(isEmpty(userPwd)){
-			$("#msg").html("用户密码不能为空");
-			return;
-		}
+		// // 2. check empty
+		// if(isEmpty(userName)){
+		// 	$("#msg").html("用户名称不能为空");
+		// 	return;
+		// }
+		// if(isEmpty(userPwd)){
+		// 	$("#msg").html("用户密码不能为空");
+		// 	return;
+		// }
 
 		$("#loginForm").submit();
 	}
