@@ -9,20 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7258efb3-491f-4f1b-8476-6e04d25d5826" name="Changes" comment="user login function finished">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/note/dao/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/note/filter/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/note/filter/LoginAccessFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/note/web/IndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/note/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/type/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/user/info.jsp" afterDir="false" />
+    <list default="true" id="7258efb3-491f-4f1b-8476-6e04d25d5826" name="Changes" comment="BaseDao added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/note/web/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/note/web/UserServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/note/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/note/TestUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/First_Job/javaweb-note/src/main/java/org/example/note&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/First_Job/javaweb-note/src/main/java/org/example/note",
+    "settings.editor.selected.configurable": "vcs.Git"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\First_Job\javaweb-note\src\main\java\org\example\note" />
@@ -277,6 +274,13 @@
       <workItem from="1671754123996" duration="8191000" />
       <workItem from="1673001919102" duration="3000" />
       <workItem from="1673626637196" duration="851000" />
+      <workItem from="1673627872762" duration="1234000" />
+      <workItem from="1673689439499" duration="4051000" />
+      <workItem from="1673726885620" duration="1036000" />
+      <workItem from="1673943555845" duration="7000" />
+      <workItem from="1673975048082" duration="611000" />
+      <workItem from="1674076353734" duration="335000" />
+      <workItem from="1674608774871" duration="3342000" />
     </task>
     <task id="LOCAL-00001" summary="initialized">
       <created>1671036835846</created>
@@ -320,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671136785646</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="BaseDao added">
+      <created>1673627906614</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673627906614</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +353,7 @@
     <MESSAGE value="DBConnection" />
     <MESSAGE value="static pages resources" />
     <MESSAGE value="user login function finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="user login function finished" />
+    <MESSAGE value="BaseDao added" />
+    <option name="LAST_COMMIT_MESSAGE" value="BaseDao added" />
   </component>
 </project>

@@ -31,7 +31,26 @@ public class UserServlet extends HttpServlet {
             }
         }
 
+        if("logout".equals(actionName)){
+            userLogOut(req, resp);
+        }
 
+
+
+    }
+
+    /**
+     * 用户退出
+     * 1. 销毁session
+     * 2. 删除Cookie
+     * 3. 重定向登录
+     */
+    private void userLogOut(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        request.getSession().invalidate();
+        Cookie cookie = new Cookie("user", null);
+        cookie.setMaxAge(0);
+        response.addCookie(cookie);
+        response.sendRedirect("login.jsp");
     }
 
     /**
